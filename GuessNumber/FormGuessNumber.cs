@@ -42,9 +42,12 @@ namespace GuessNumber
         private void btnGuess_Click(object sender, EventArgs e)
         {
             EnterYourAnswerHere answerForm = new EnterYourAnswerHere(this);
+            answerForm.TopMost = true;
             answerForm.StartPosition = FormStartPosition.Manual;
             answerForm.Location = new Point(550, 550);
             answerForm.Show();
+
+            GenerateNewAnswer();
         }
 
         private void btnShowAnswer_Click(object sender, EventArgs e)

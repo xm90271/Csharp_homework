@@ -55,7 +55,7 @@
             // 
             this.txtEngName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtEngName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtEngName.Location = new System.Drawing.Point(267, 305);
+            this.txtEngName.Location = new System.Drawing.Point(335, 239);
             this.txtEngName.Name = "txtEngName";
             this.txtEngName.Size = new System.Drawing.Size(87, 22);
             this.txtEngName.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtName.Location = new System.Drawing.Point(267, 266);
+            this.txtName.Location = new System.Drawing.Point(335, 200);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(87, 22);
             this.txtName.TabIndex = 2;
@@ -73,7 +73,7 @@
             // 
             this.txtSex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtSex.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtSex.Location = new System.Drawing.Point(267, 340);
+            this.txtSex.Location = new System.Drawing.Point(335, 274);
             this.txtSex.Name = "txtSex";
             this.txtSex.Size = new System.Drawing.Size(87, 22);
             this.txtSex.TabIndex = 3;
@@ -82,7 +82,7 @@
             // 
             this.txtZodiacSigns.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtZodiacSigns.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtZodiacSigns.Location = new System.Drawing.Point(267, 376);
+            this.txtZodiacSigns.Location = new System.Drawing.Point(335, 310);
             this.txtZodiacSigns.Name = "txtZodiacSigns";
             this.txtZodiacSigns.Size = new System.Drawing.Size(87, 22);
             this.txtZodiacSigns.TabIndex = 4;
@@ -93,7 +93,7 @@
             this.labName.BackColor = System.Drawing.Color.Transparent;
             this.labName.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.labName.Location = new System.Drawing.Point(149, 267);
+            this.labName.Location = new System.Drawing.Point(217, 201);
             this.labName.Name = "labName";
             this.labName.Size = new System.Drawing.Size(53, 24);
             this.labName.TabIndex = 5;
@@ -105,7 +105,7 @@
             this.labZodiacSigns.BackColor = System.Drawing.Color.Transparent;
             this.labZodiacSigns.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labZodiacSigns.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.labZodiacSigns.Location = new System.Drawing.Point(149, 374);
+            this.labZodiacSigns.Location = new System.Drawing.Point(217, 308);
             this.labZodiacSigns.Name = "labZodiacSigns";
             this.labZodiacSigns.Size = new System.Drawing.Size(53, 24);
             this.labZodiacSigns.TabIndex = 9;
@@ -117,7 +117,7 @@
             this.labsex.BackColor = System.Drawing.Color.Transparent;
             this.labsex.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labsex.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.labsex.Location = new System.Drawing.Point(149, 338);
+            this.labsex.Location = new System.Drawing.Point(217, 272);
             this.labsex.Name = "labsex";
             this.labsex.Size = new System.Drawing.Size(53, 24);
             this.labsex.TabIndex = 10;
@@ -129,7 +129,7 @@
             this.labEngName.BackColor = System.Drawing.Color.Transparent;
             this.labEngName.Font = new System.Drawing.Font("微軟正黑體", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labEngName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.labEngName.Location = new System.Drawing.Point(138, 305);
+            this.labEngName.Location = new System.Drawing.Point(206, 239);
             this.labEngName.Name = "labEngName";
             this.labEngName.Size = new System.Drawing.Size(128, 22);
             this.labEngName.TabIndex = 11;
@@ -140,7 +140,7 @@
             this.btnSayHello.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnSayHello.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSayHello.BackgroundImage")));
             this.btnSayHello.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnSayHello.Location = new System.Drawing.Point(91, 446);
+            this.btnSayHello.Location = new System.Drawing.Point(159, 380);
             this.btnSayHello.Name = "btnSayHello";
             this.btnSayHello.Size = new System.Drawing.Size(117, 34);
             this.btnSayHello.TabIndex = 16;
@@ -152,7 +152,7 @@
             // 
             this.btnSayHi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnSayHi.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnSayHi.Location = new System.Drawing.Point(230, 446);
+            this.btnSayHi.Location = new System.Drawing.Point(298, 380);
             this.btnSayHi.Name = "btnSayHi";
             this.btnSayHi.Size = new System.Drawing.Size(117, 34);
             this.btnSayHi.TabIndex = 18;
