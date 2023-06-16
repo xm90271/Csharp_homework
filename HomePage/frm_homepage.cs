@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 using Alarm;
+using Screen_Saver;
 
 namespace HomePage
 {
@@ -85,7 +86,7 @@ namespace HomePage
 
         private void btnGuess_Click(object sender, EventArgs e)
         {
-          frm_GuessNumber frm_GuessNumber = new frm_GuessNumber();
+            frm_GuessNumber frm_GuessNumber = new frm_GuessNumber();
             OpenForm(frm_GuessNumber);
         }
 
@@ -93,6 +94,12 @@ namespace HomePage
         {
             frm_Alarm frm_Alarm = new frm_Alarm();
             OpenForm(frm_Alarm);
+        }
+
+        private void btnScreenSaver_Click(object sender, EventArgs e)
+        {
+           ScreenSaverForm ScreenSaverForm = new ScreenSaverForm();
+            OpenForm(ScreenSaverForm);
         }
     }
 }

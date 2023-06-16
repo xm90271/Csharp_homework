@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{252686BA-EAFC-467B-AE8E-DB26C00F1D7E}</ProjectGuid>
+    <ProjectGuid>{13C84FD4-B720-4EA9-8382-AE8BF547E3DF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>HomePage</RootNamespace>
-    <AssemblyName>HomePage</AssemblyName>
+    <RootNamespace>Screen_Saver</RootNamespace>
+    <AssemblyName>Screen Saver</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm_homepage.cs">
+    <Compile Include="frm_ScreenSaver.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_homepage.Designer.cs">
-      <DependentUpon>frm_homepage.cs</DependentUpon>
+    <Compile Include="frm_ScreenSaver.Designer.cs">
+      <DependentUpon>frm_ScreenSaver.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frm_homepage.resx">
-      <DependentUpon>frm_homepage.cs</DependentUpon>
+    <EmbeddedResource Include="frm_ScreenSaver.resx">
+      <DependentUpon>frm_ScreenSaver.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,38 +81,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Alarm\Alarm.csproj">
-      <Project>{a5cb92f5-4254-441d-949e-64ca2696da5b}</Project>
-      <Name>Alarm</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GuessNumber\GuessNumber.csproj">
-      <Project>{f7c47ad2-8e39-43ac-9536-a4a2e147c5cc}</Project>
-      <Name>GuessNumber</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Hello\Hello.csproj">
-      <Project>{9ed30089-f90e-4081-8a08-0f99c7df4f07}</Project>
-      <Name>Hello</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Loan\Loan.csproj">
-      <Project>{21fdd50b-a5f5-47cd-84a4-6c876db1b345}</Project>
-      <Name>Loan</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MyCalculator\MyCalculator.csproj">
-      <Project>{8fbb21f2-82f5-4917-aa5f-9ec9fdf9be35}</Project>
-      <Name>MyCalculator</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\POS\POS.csproj">
-      <Project>{7afabfa2-437d-4238-bd6a-df87e6935098}</Project>
-      <Name>POS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Screen Saver\Screen Saver.csproj">
-      <Project>{13c84fd4-b720-4ea9-8382-ae8bf547e3df}</Project>
-      <Name>Screen Saver</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Student_StructForm\Student_StructForm.csproj">
-      <Project>{8f9cce2f-4f40-4ccd-9241-d741ada4c1d9}</Project>
-      <Name>Student_StructForm</Name>
-    </ProjectReference>
+    <None Include="Resources\winter.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

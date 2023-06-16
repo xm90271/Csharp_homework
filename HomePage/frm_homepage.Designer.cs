@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_homepage));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnScreenSaver = new System.Windows.Forms.Button();
             this.btnAlarm = new System.Windows.Forms.Button();
             this.btnGuess = new System.Windows.Forms.Button();
             this.btnMyCalculator = new System.Windows.Forms.Button();
@@ -47,7 +48,7 @@
             this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
             this.groupBox1.Location = new System.Drawing.Point(12, 1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1027, 104);
+            this.groupBox1.Size = new System.Drawing.Size(1251, 104);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -55,6 +56,7 @@
             // 
             this.groupBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox2.BackgroundImage")));
             this.groupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.groupBox2.Controls.Add(this.btnScreenSaver);
             this.groupBox2.Controls.Add(this.btnAlarm);
             this.groupBox2.Controls.Add(this.btnGuess);
             this.groupBox2.Controls.Add(this.btnMyCalculator);
@@ -64,9 +66,20 @@
             this.groupBox2.Controls.Add(this.btnHello);
             this.groupBox2.Location = new System.Drawing.Point(12, 99);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 531);
+            this.groupBox2.Size = new System.Drawing.Size(200, 635);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            // 
+            // btnScreenSaver
+            // 
+            this.btnScreenSaver.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScreenSaver.Location = new System.Drawing.Point(7, 282);
+            this.btnScreenSaver.Name = "btnScreenSaver";
+            this.btnScreenSaver.Size = new System.Drawing.Size(187, 31);
+            this.btnScreenSaver.TabIndex = 7;
+            this.btnScreenSaver.Text = "ScreenSaver";
+            this.btnScreenSaver.UseVisualStyleBackColor = true;
+            this.btnScreenSaver.Click += new System.EventHandler(this.btnScreenSaver_Click);
             // 
             // btnAlarm
             // 
@@ -151,7 +164,7 @@
             this.groupBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBox3.Location = new System.Drawing.Point(219, 100);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(820, 530);
+            this.groupBox3.Size = new System.Drawing.Size(1044, 634);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
@@ -160,7 +173,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1049, 642);
+            this.ClientSize = new System.Drawing.Size(1275, 746);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -184,5 +197,6 @@
         private System.Windows.Forms.Button btnMyCalculator;
         private System.Windows.Forms.Button btnGuess;
         private System.Windows.Forms.Button btnAlarm;
+        private System.Windows.Forms.Button btnScreenSaver;
     }
 }
